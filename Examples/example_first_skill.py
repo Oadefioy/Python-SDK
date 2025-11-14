@@ -43,7 +43,7 @@ def start_skill():
 
     misty.display_image("e_defaultcontent.jpg")
     misty.move_head(0, 0, 0, 85)
-    misty.speak("I'd like to show you an image and have you tell me what you see.", None, None, None, True, "tts-content")
+    misty.speak("apple", None, None, None, True, "tts-content")
 
 def tts_intro_completed(event):
     misty.display_image("inkblot.jpg")
@@ -69,8 +69,7 @@ def voice_record_complete(event):
 def tts_all_i_ever_see(event):
     misty.display_image("e_joy.jpg")
 
-
 if __name__ == "__main__":
-    ip_address = "192.168.1.12"
+    ip_address = "192.168.1.5"
     misty = Robot(ip_address)
     start_skill()

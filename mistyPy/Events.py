@@ -16,14 +16,13 @@ class Events:
         'BatteryCharge', 'BumpSensor', 'CriticalStatusMessage', 'DialogAction',
         'DriveEncoders', 'FaceRecognition', 'FaceTraining', 'HaltCommand',
         'HazardNotification', 'IMU', 'KeyPhraseRecognized',
-        'LocomotionCommand', 'ObjectDetection', 'ObstacleMap', 'PRUMessage',
+        'LocomotionCommand', 'ObjectDetection', 'ObstacleMap', 'PRUMessage', 'PoseEstimation',
         'RfCommMessage', 'RfCommState', 'RobotCommandMessage',
         'RobotInteractionState', 'SelfState', 'SerialMessage', 'SkillData',
         'SkillSystemStateChange', 'SourceFocusConfigMessage',
         'SourceTrackDataMessage', 'TextToSpeechComplete', 'TimeOfFlight',
         'TouchSensor', 'UserSkillData', 'VoiceRecord', 'WorldState'
     ]
-
     ActuatorPosition = 'ActuatorPosition'
     ArTagDetection = 'ArTagDetection'
     AudioPlayComplete = 'AudioPlayComplete'
@@ -41,6 +40,7 @@ class Events:
     LocomotionCommand = 'LocomotionCommand'
     ObjectDetection = 'ObjectDetection'
     ObstacleMap = 'ObstacleMap'
+    PoseEstimation = 'PoseEstimation'
     PRUMessage = 'PRUMessage'
     RfCommMessage = 'RfCommMessage'
     RfCommState = 'RfCommState'
